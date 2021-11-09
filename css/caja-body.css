@@ -1,0 +1,63 @@
+*{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}
+.contenedor-beta{
+	width: auto;
+	height: calc(100% - 235px);
+	overflow: hidden;
+	overflow-y: scroll;
+	margin: 25px;
+}
+.contenedor-beta::-webkit-scrollbar{
+	width: 0;
+}
+
+@media only screen and (max-width: 520px) {
+	.contenedor-beta{
+		margin: 20px;
+	}
+}
+@media only screen and (max-width: 480px) {
+	.contenedor-beta{
+		margin: 15px;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	.contenedor-beta{
+		margin: 10px;
+	}
+}
+@media only screen and (max-height: 480px) {
+	.contenedor-beta{
+		height: 70%;
+		margin: 15px;
+	}
+}
+@media only screen and (max-height: 425px) {
+	.contenedor-beta{
+		height: 66%;
+	}
+}
+@media only screen and (max-height: 375px) {
+	.contenedor-beta{
+		height: 64%;
+		margin: 10px;
+	}
+}
+@media only screen and (max-height: 360px) {
+	.contenedor-beta{
+		height: 62%;
+	}
+}
+@media only screen and (max-height: 320px) {
+	.contenedor-beta{
+		height: 57%;
+	}
+}
+@media only screen and (max-height: 280px) {
+	.contenedor-beta{
+		height: 51%;
+	}
+}

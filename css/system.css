@@ -1,0 +1,153 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	font-weight:  600;
+}
+form {
+	padding: 50px 20px;
+	background-color: #381b1ba6;
+	margin: 30%;
+	margin-top: 50px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+	border-radius:10% ;
+}
+h1 {
+	text-align: center;
+	padding: 12px;
+	color: rgb(206, 203, 203)
+}
+input {
+	width: calc(100% - 20px);
+	padding: 9px;
+	margin: auto;
+	margin-top: 12px;
+	font-size: 16px;
+	border-radius: 10px;
+}
+input[type='submit']{
+	background-color: #48e;
+	color: #fff;
+	width: calc(80% - 20px);
+	margin: 0 10%;
+	border: none;
+}
+.ok {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #1e6;
+	color: #fff
+}
+.bad {
+	text-align: center;
+	width: 100%;
+	margin: -11px;
+	background-color: #a22;
+	color: #fff;
+	border-radius: 10px;
+	font-size: 12px;
+}
+.off{
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: rgb(0, 0, 0);
+	color: #fff
+
+}
+body{
+	background-image:url(../IMG/fondolegal.jpg);
+	width: 100%;
+	height:100%;
+	background-size: cover;
+	color:white;
+}
+.mensaje{
+	width: 100%;
+	max-width: 350px;
+	margin: auto;
+	margin-top: 20px;
+	text-align: left;
+	padding: 6px;
+	color: red;
+}
+h6 {
+	text-align: center;
+	padding: 12px;
+    color: rgb(206, 203, 203);
+    line-height: 20px;
+}
+.gabo{
+	padding: 50px 20px;
+	background-color: #381b1ba6;
+	margin: calc(25% + 100px);
+	margin-top: 70px;
+	padding-top: 28px;
+    margin-bottom: 30px;
+    line-height: 20px;
+}
+header{
+    width: 100%;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-between;
+    background-color: rgba(0, 0, 0,.3);
+}
+header h1{
+    margin-left: 5px;
+    align-items: center;
+    width: calc(20% - 100px);
+    font-size: 55px;
+}
+header a{
+    margin-right: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    transition: all ease 300ms;
+}
+.login-box{
+	background-image:url(img/fondolegal.jpg);
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+}
+.login-box{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+    top: 50px;
+    left: 10px;
+	left: calc(36% - 45px);
+}
+.left{
+    width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+    top: 50px;
+    left: 10px;
+	left: calc(45% - 45px);
+}
+.righ{ 
+    background-position: right;
+    position: absolute;
+}
+#inicio a{
+	text-decoration: none;
+}
+#inicio a:hover{
+	text-decoration: none;
+	color: red;
+}

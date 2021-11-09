@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Yellowtail&display=swap');
+:root {
+    --principal: transparent;
+    --secundario: white;
+    --texto: white;
+    --font-principal:'Open Sans', sans-serif;
+    --font-secundario:'Open Sans', cursive;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-principal);
+    font-weight: 600;
+}
+.bg-principal{
+    background: var(--principal);
+}
+.bg-secundario{
+    background: var(--secundario);
+}
+.text-principal{
+    color: var(--principal);
+}
+.text-secundario{
+    color: var(--secundario);
+	padding: 10px;
+}
+.text-texto{
+    color: var(--texto);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;
+}
+.container::-webkit-scrollbar{
+	width: 0;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+	align-items: center;
+}
+.col-A,.col-B{
+    padding: 10px;
+}
+.col-A{
+    flex: 1 0 calc(50% - 10px);
+	color: white;
+}
+.col-B{
+    flex: 1 0 calc(25% - 10px);
+}
+.logo{
+    font-size: 30px;
+    color: var(--secundario);
+    font-family: var(--font-secundario);
+}
+.card{
+    width:75%;
+    height:90%;
+    border-radius: 0.5rem;
+    border: solid 0.5px white;
+}
+.card-content{
+    height: 25%;
+    display: flex;
+    align-items: center;
+	justify-content: center;
+}
+.card-image img{
+    width: 95%;
+    display: block;
+    margin: auto auto;
+}
+.video-content{
+    width: 90%;
+    padding: 5px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    height: auto;
+}
+.video-content video{
+    width: 95%;
+    margin: 0 auto;
+    display: inline-block;
+    height: auto;
+    min-width: 100%;
+}
+#files{
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+.carga{
+    text-align: right;
+    font-size: 30px;
+	cursor: pointer;
+}
+.card-header{
+    border-bottom:solid 0.5px var(--secundario);
+}
+.borde_bnt{
+	border-bottom:solid 0.5px var(--secundario);
+}
+.control{
+    font-size: 50px;
+    text-align: center;
+    color: var(--secundario);
+    cursor: pointer;
+}
+ul{
+    list-style:none;
+    width: 100%;
+	padding: 1px 15px;
+	color: white;
+}
+.list-item{
+	cursor: pointer;
+	margin-bottom: 10px;
+}
+
+.list-item video{
+    display: none;
+}
+#name-music{
+    font-size: 15px;
+}
+@media screen and (min-width: 480px) {
+  .card{
+      width: 90%;
+  }
+  .card-image img{
+    width: 75%;
+  }
+}

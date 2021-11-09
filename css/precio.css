@@ -1,0 +1,200 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+body{
+    width: 100%;
+    height:100%;
+    background-size: cover;
+}
+h2 {
+    padding-top: 30px;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+    color: #fff;
+    text-shadow: -2px -2px 2px #000, 2px -2px 2px #000, -2px 2px 2px #000, 2px 2px 2px #000;
+}
+p {
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    text-shadow: -2px -2px 2px #000, 2px -2px 2px #000, -2px 2px 2px #000, 2px 2px 2px #000;
+}
+h4{
+    color: #fff;
+}
+.contenedor{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contenedor-pago{
+    width: 90%;
+    max-width:900px;
+    margin: auto;
+    height:50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.tabla{
+    width: 32%;
+    height: auto;
+    margin: auto;
+    border:1px solid #000;
+    border-radius: 4px;
+    box-shadow: 0px 0px 4px 0px  #000;
+    padding: 60px;
+    text-align: center;
+    flex-grow: 1;
+    color: #000;
+}
+.tabla-pago{
+    width: 100%;
+    height:auto;
+    margin: auto;
+    border:1px solid #000;
+    border-radius: 4px;
+    box-shadow: 0px 0px 4px 0px  #000;
+    padding: 30px;
+    text-align: center;
+    color: #000;
+    word-wrap: break-word;
+}
+
+.tabla-pago img{
+    width: 100px;
+    min-width: none;
+}
+.tabla-pago h3{
+    font-size: 25px;
+    color: #fff;
+}
+.btc{
+    padding: 1px;
+    color: #fff;
+    font-size: 15px;
+}
+.btc-message{
+    box-shadow: 0 0 8px rgb(255, 183, 0);
+    color: #f2ff00;
+    text-shadow: -2px -2px 2px #000, 2px -2px 2px #000, -2px 2px 2px #000, 2px 2px 2px #000;
+}
+.qr{
+    width: 150px !important;
+}
+.tabla > h2{
+    font-size:30px;
+    margin-bottom:35px;
+    color: #fff;
+}
+.tabla img{
+    width: 64px;
+    margin-bottom:25px;
+}
+.tabla > h3{
+    font-size:20px;
+    margin-bottom: 20px;
+}
+.tabla > p{
+    display: block;
+    margin-bottom:20px;
+}
+.precio-1{
+    color: #D56151;
+    font-size: 30px;
+    font-weight: bold;
+}
+.dolar{
+    font-size: 13px;
+    vertical-align: justify;
+}
+.mes{
+    font-size: 10px;
+    color: white;
+    vertical-align: text-bottom;
+}
+.anual{
+    font-size: 10px;
+    color: white;
+    vertical-align: text-bottom;
+}
+.lista-precios{
+    list-style: none;
+    padding: 20px 0;
+    color: white;
+    padding-bottom: 16px;
+}
+.lista-espacios{
+    padding: 0.25em;
+    font-size: 12px;
+}
+.destacado{
+    box-shadow: 0 0 8px rgba(0,0,0,0.9);
+}
+
+.destacado .icono-precio{
+    font-size: 2em;
+}
+.destacado .contratar-a{
+    background:#30353c;
+}
+.destacado .contratar-a:hover{
+    background:#777;
+}
+.usu{
+    font-size: 8px;
+    color:#30353c;
+    vertical-align: text-bottom;
+}
+.boton{
+    display:inline-block;
+    width: 150px;
+    padding:12px;
+    background: #D56151;
+    text-decoration: none;
+    color: #FFF;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 600;
+    margin: 5px auto;
+    border-color: black;
+    cursor: pointer;
+}
+.boton:hover{
+    background: red !important;
+	transition: all 1s ease;
+}
+@media screen and (max-width: 1000px){
+    .tabla{
+        width: 45%;
+        max-width:none;
+        margin-bottom: 40px;
+        flex-grow: initial;
+    }
+}
+@media screen and (max-width: 700px){
+    .tabla{
+        width: 45%;
+        padding:30px;
+    }
+    .tabla > h2{
+        margin-top:40px;
+    }
+}
+@media screen and (max-width:550px){
+    .tabla{
+        width: 85%;
+        padding: 20px;
+    }
+}
